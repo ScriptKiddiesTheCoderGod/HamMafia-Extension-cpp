@@ -20,6 +20,7 @@ string hamLocation;
 
 void DownloadLux()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -31,6 +32,7 @@ void DownloadLux()
 }
 void DownloadEulen()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -42,6 +44,7 @@ void DownloadEulen()
 }
 void DownloadFallout()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -53,6 +56,7 @@ void DownloadFallout()
 }
 void DownloadATG()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -64,6 +68,7 @@ void DownloadATG()
 }
 void DownloadMaestro()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -75,6 +80,7 @@ void DownloadMaestro()
 }
 void DownloadHugeV()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -86,6 +92,7 @@ void DownloadHugeV()
 }
 void DownloadLynx()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -97,6 +104,7 @@ void DownloadLynx()
 }
 void DownloadHamxLynx()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -108,6 +116,7 @@ void DownloadHamxLynx()
 }
 void DownloadFiveSenseNertigel()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
     char* user = getenv("username");
     string g = user;
     system("cls");
@@ -120,6 +129,8 @@ void DownloadFiveSenseNertigel()
 
 void menu()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
+
     system("cls");
 
     cout << "\n\n  HamMafia.co LUA menu downloader 2.0\n";
@@ -195,6 +206,8 @@ void menu()
 
 int main()
 {
+    SetConsoleTitleA("HamMafia.co Extension");
+
     int x = 0;
 
     system("cls");
